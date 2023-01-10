@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   
   resources :movies
   resources :directors
-  root "movies#index"
+  #root "movies#index"
 
   # Routes for the Movie resource:
 
